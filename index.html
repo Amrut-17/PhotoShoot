@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practice04</title>
+</head>
+<body>
+
+
+    
+    
+    
+    <section class="firstPage">
+        <div class="container-fluid navbarDiv">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark actualNav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">PerfectFrames</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                            </li>
+                        </ul>
+                        <a href="#about" id="lgin" class="loginBtn">Login</a>
+                        <a href="#about" id="sgin" class="signupBtn">SignUp</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container fstContainer">
+            <div class="row">
+                <div class="col-sm-8 quote">
+                    <code class="words">“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.”</code>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="secondPage" id="about">
+        <div class="container twoPage">
+            <div class="row">
+                <div class="col-sm-6 mt-1">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nulla eligendi cupiditate id velit tenetur corporis illo, voluptate aperiam consequuntur ab ad! Id laboriosam iure beatae, modi ab fuga nulla aspernatur odit possimus molestiae ad rerum libero, doloremque perferendis ipsa provident consectetur! Commodi, vel inventore? Iste commodi dolor reiciendis rerum perferendis quos consequatur magni saepe odit distinctio? Natus, ratione alias. Necessitatibus molestiae, quod a illum cumque quasi eum consequatur adipisci totam vero dolor laborum ea laudantium eos ex magnam nemo rerum ipsam modi sit. Ea, officiis aliquid nesciunt dolorum voluptatibus est fugit harum, sit iste, obcaecati architecto. Dignissimos, eius. Vitae!</p>
+                </div>
+
+                <div class="col-sm-6 mt-4 box">
+                    <div class="container container02" id="container">
+                        <div class="form-container sign-up-container">
+                        
+                        <form action="signup1.php" method="POST">
+                            <h1>Create Account</h1>
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="password" name="password" placeholder="Password">
+                            <button>SignUp</button>
+                        </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="#">
+                                <h1>Sign In</h1>
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="password" name="password" placeholder="Password">
+                            <a href="#">Forgot Your Password</a>
+                        
+                            <button>Sign In</button>
+                            </form>
+                        </div>
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1>Welcome Back!</h1>
+                                    <p>To keep connected with us please login with your personal info</p>
+                                    <button class="ghost" id="signIn">Sign In</button>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Hello, Friend!</h1>
+                                    <p>Enter your details and start journey with us</p>
+                                    <button class="ghost" id="signUp">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thirdPage" id="gallery">
+        <div class="container">
+            <h1 class="galleryTitle">Gallery</h1>
+                <div class="cards">
+                    <div class="card crd" style="width: 18rem;">
+                        <img src="./im1.jpg" class="card-img-top dp" alt="...">
+                        <div class="card-body">
+                            <p class="card-text crdTxt">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                <a href="#">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card crd" style="width: 18rem;">
+                        <img src="./im3.jpg" class="card-img-top dp" alt="...">
+                        <div class="card-body">
+                            <p class="card-text crdTxt">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                <a href="#">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card crd" style="width: 18rem;">
+                        <img src="./im2.jpg" class="card-img-top dp" alt="...">
+                        <div class="card-body">
+                            <p class="card-text crdTxt">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                <a href="#">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card crd" style="width: 18rem;">
+                        <img src="./im3.jpg" class="card-img-top dp" alt="...">
+                        <div class="card-body">
+                            <p class="card-text crdTxt">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                <a href="#">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
